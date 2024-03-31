@@ -8,7 +8,8 @@ client_id='013dcad121c740c0bc5c0ed6a84e9ad3'
 
 client_secret ='7900ea6ec3cd4c54a8cd1675a3ba97e5'
 
-redirect_uri = 'http://localhost:5000'
+# redirect_uri = 'http://localhost:5000'
+redirect_uri = "https://app-2ukgv7phd3ggepjesch8fr.streamlit.app/"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                     client_secret= client_secret,
