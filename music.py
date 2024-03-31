@@ -1,6 +1,4 @@
 
-theme: jekyll-theme-minimal
-
 import spotipy 
 from spotipy import SpotifyOAuth
 import streamlit as st
